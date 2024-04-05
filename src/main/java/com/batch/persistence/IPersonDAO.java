@@ -1,4 +1,4 @@
-package persistence;
+package com.batch.persistence;
 
 import com.batch.entities.Person;
 import org.springframework.data.repository.CrudRepository;

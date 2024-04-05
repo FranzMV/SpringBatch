@@ -1,4 +1,4 @@
-package service;
+package com.batch.service;
 
 import com.batch.entities.Person;
 
