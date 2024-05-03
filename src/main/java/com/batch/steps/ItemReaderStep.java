@@ -43,7 +43,7 @@ public class ItemReaderStep implements Tasklet {
 
         log.info("------------------ Inicio del paso de lectura ----------------------");
 
-        Reader reader = new FileReader(resourceLoader.getResource(BatchConstants.FILE_PATH).getFile());
+        Reader reader = new FileReader(resourceLoader.getResource(BatchConstants.FILE_PATH_DESTINATION).getFile());
 
         CSVParser parser = new CSVParserBuilder()
                 .withSeparator(BatchConstants.CSV_SEPARATOR)
