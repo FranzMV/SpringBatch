@@ -15,4 +15,6 @@ public class Person {
     @Column(name = "last_name")
     private String surname;
     private int age;
+    @Column(name = "date_act")
+    private String dateAct;
 }
