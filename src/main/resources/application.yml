@@ -1,3 +1,28 @@
+#SPRING
 spring:
     application:
         name: SpringBootBatch
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+    logging:
+        level:
+            org.springframework.web: DEBUG
+            guru.springframework.controllers: DEBUG
+            org.hibernate: DEBUG
+            org: INFO
+#BATCH
+batch:
+    job:
+        enable: true
+    jdbc:
+        initialize-schema: ALWAYS
+
+#SERVLET
+servlet:
+    multipart:
+        max-file-size: 10MB
+        max-request-size: 10MB
+
+
