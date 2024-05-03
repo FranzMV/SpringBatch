@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
- * Tercer paso: Procesoar el archivo
+ * Tercer paso: Procesar el archivo
  */
 @Slf4j
 public class ItemProcessorStep implements Tasklet {
