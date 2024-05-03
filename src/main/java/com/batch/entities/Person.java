@@ -1,6 +1,6 @@
 package com.batch.entities;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 
 @Data
